@@ -40,6 +40,54 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 15.0, 375.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 53.0, 465.0, 59.0, 22.0 ],
+					"text" : "cursor $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 405.0, 47.0, 22.0 ],
+					"text" : "play $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "float", "int", "int", "" ],
+					"patching_rect" : [ 15.0, 435.0, 169.0, 22.0 ],
+					"text" : "mubu.play landmark wrist_xyz"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -76,18 +124,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-25",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 540.0, 729.0, 47.0, 22.0 ],
-					"text" : "clearall"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-117",
@@ -95,8 +131,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 540.0, 495.0, 487.0, 221.0 ],
-					"presentation_linecount" : 16,
+					"patching_rect" : [ 529.0, 495.0, 489.0, 221.0 ],
 					"text" : "@name <sym: track name> – name of new track\n@maxsize <int: track capacity> – capacity of new track [256]\n   Giving a time for maxsize will allocate the corresponding number of frames based on \n   the frame rate (see @samplerate). The following time units are supported: ms, s, min, h, \n   asp for milliseconds, seconds, minutes, hours, audio samples.\n@matrixcols <int: # of cols> – numer of matrix columns [1]\n@matrixrows <int: # of rows> – number of matrix rows [1)\n@matrixvarrows <1|0|'yes'|'no': flag> – track has variable matrix row size [0]\n@matrixcolnames <list: names> – list of matrix colum names\n@samplerate <float: frame rate> – frame rate in Hz = 1000 / sample period [1000]\n                                                          (with \"audio\" will use the current Max sr)\n@sampleperiod <float: sample period> – sample period in msec = 1000 / frame rate [1]\n@timetagged <1|0|'yes'|'no': flag> – track has time-tags ['no']\n@extradata <'none'|'label': extradata type> – type of extra data ['none']\n@info [ <sym: key> <num|sym: value> ... ] – add items to track info table\n@ringtail <int: ring tail length> - track extra space for ring operation [0]"
 				}
 
@@ -108,8 +143,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 465.0, 982.0, 22.0 ],
-					"text" : "addtrack @name wrist_xyz @maxsize 30min @matrixcols 3 @matrixrows 1 @matrixcolnames x y z @timetagged yes @info gui \"interface multiwave, colormode rainbow, bounds -1 1\""
+					"patching_rect" : [ 15.0, 795.0, 1027.0, 22.0 ],
+					"text" : "clearall, addtrack @name wrist_xyz @maxsize 30min @matrixcols 3 @matrixrows 1 @matrixcolnames x y z @timetagged yes @info gui \"interface multiwave, colormode rainbow, bounds -1 1\""
 				}
 
 			}
@@ -142,7 +177,7 @@
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 4180.021999999880791 ],
+					"domain_bounds" : [ 0.0, 1.0 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1212,13 +1247,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
@@ -1228,6 +1256,34 @@
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"source" : [ "obj-28", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-30", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-47", 0 ]
 				}
 
 			}
@@ -1260,6 +1316,10 @@
 			}
 , 			{
 				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.play.mxo",
 				"type" : "iLaX"
 			}
 , 			{
