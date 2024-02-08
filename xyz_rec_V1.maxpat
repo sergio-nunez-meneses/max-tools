@@ -40,6 +40,43 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 164.0, 315.0, 69.0, 22.0 ],
+					"text" : "print id_xyz"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 164.0, 285.0, 93.0, 22.0 ],
+					"text" : "join @triggers 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-76",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 6,
+					"outlettype" : [ "", "float", "int", "int", "int", "" ],
+					"patching_rect" : [ 16.0, 255.0, 204.0, 22.0 ],
+					"text" : "mubu.play landmark @outputindex 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-79",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -117,7 +154,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 825.0, 993.0, 22.0 ],
+					"patching_rect" : [ 15.0, 795.0, 993.0, 22.0 ],
 					"text" : "addtrack @name middle_xyz @maxsize 30min @matrixcols 3 @matrixrows 1 @matrixcolnames x y z @timetagged yes @info gui \"interface multiwave, colormode rainbow, bounds -1 1\""
 				}
 
@@ -322,7 +359,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 270.0, 75.0, 24.0, 24.0 ]
+					"patching_rect" : [ 16.0, 195.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -345,20 +382,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 105.0, 47.0, 22.0 ],
+					"patching_rect" : [ 16.0, 225.0, 47.0, 22.0 ],
 					"text" : "play $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-30",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "float", "int", "int", "" ],
-					"patching_rect" : [ 270.0, 135.0, 169.0, 22.0 ],
-					"text" : "mubu.play landmark wrist_xyz"
 				}
 
 			}
@@ -383,7 +408,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 795.0, 982.0, 22.0 ],
+					"patching_rect" : [ 15.0, 765.0, 982.0, 22.0 ],
 					"text" : "addtrack @name wrist_xyz @maxsize 30min @matrixcols 3 @matrixrows 1 @matrixcolnames x y z @timetagged yes @info gui \"interface multiwave, colormode rainbow, bounds -1 1\""
 				}
 
@@ -483,7 +508,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 436.0, 765.0, 91.0, 22.0 ],
+					"patching_rect" : [ 16.0, 825.0, 91.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
@@ -544,16 +569,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 489.5, 490.5, 24.5, 490.5 ],
-					"source" : [ "obj-3", 0 ]
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"source" : [ "obj-30", 1 ]
+					"destination" : [ "obj-21", 0 ],
+					"midpoints" : [ 489.5, 490.5, 24.5, 490.5 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -624,7 +649,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
+					"destination" : [ "obj-76", 0 ],
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -648,6 +673,28 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-76", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 1 ],
+					"midpoints" : [ 25.5, 280.5, 247.5, 280.5 ],
+					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-76", 1 ]
 				}
 
 			}
