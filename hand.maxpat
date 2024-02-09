@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 163.0, 100.0, 721.0, 438.0 ],
+		"rect" : [ 163.0, 100.0, 708.0, 334.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -42,11 +42,11 @@
 				"box" : 				{
 					"comment" : "(list) (float) pinky xyz coordinates",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 555.0, 315.0, 30.0, 30.0 ]
+					"patching_rect" : [ 555.0, 225.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -54,11 +54,11 @@
 				"box" : 				{
 					"comment" : "(list) (float) ring xyz coordinates",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 315.0, 30.0, 30.0 ]
+					"patching_rect" : [ 450.0, 225.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -66,11 +66,11 @@
 				"box" : 				{
 					"comment" : "(list) (float) index xyz coordinates",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 315.0, 30.0, 30.0 ]
+					"patching_rect" : [ 240.0, 225.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -78,11 +78,11 @@
 				"box" : 				{
 					"comment" : "(list) (float) thumb xyz coordinates",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 315.0, 30.0, 30.0 ]
+					"patching_rect" : [ 135.0, 225.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -93,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 555.0, 240.0, 91.0, 22.0 ],
+					"patching_rect" : [ 555.0, 150.0, 91.0, 22.0 ],
 					"text" : "OSC-route /xyz"
 				}
 
@@ -105,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 450.0, 240.0, 91.0, 22.0 ],
+					"patching_rect" : [ 450.0, 150.0, 91.0, 22.0 ],
 					"text" : "OSC-route /xyz"
 				}
 
@@ -117,7 +117,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 345.0, 240.0, 91.0, 22.0 ],
+					"patching_rect" : [ 345.0, 150.0, 91.0, 22.0 ],
 					"text" : "OSC-route /xyz"
 				}
 
@@ -129,7 +129,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 240.0, 91.0, 22.0 ],
+					"patching_rect" : [ 240.0, 150.0, 91.0, 22.0 ],
 					"text" : "OSC-route /xyz"
 				}
 
@@ -141,7 +141,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 135.0, 240.0, 91.0, 22.0 ],
+					"patching_rect" : [ 135.0, 150.0, 91.0, 22.0 ],
 					"text" : "OSC-route /xyz"
 				}
 
@@ -153,45 +153,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 240.0, 91.0, 22.0 ],
+					"patching_rect" : [ 30.0, 150.0, 91.0, 22.0 ],
 					"text" : "OSC-route /xyz"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 10.389610389610388,
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 120.0, 29.5, 20.0 ],
-					"text" : "t l l"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 150.0, 106.0, 22.0 ],
-					"text" : "OSC-route /visible"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 180.0, 32.0, 22.0 ],
-					"text" : "gate"
 				}
 
 			}
@@ -202,7 +165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 90.0, 83.0, 22.0 ],
+					"patching_rect" : [ 30.0, 90.0, 129.0, 22.0 ],
 					"text" : "OSC-route #1"
 				}
 
@@ -214,7 +177,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 7,
 					"outlettype" : [ "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 30.0, 210.0, 649.0, 22.0 ],
+					"patching_rect" : [ 30.0, 120.0, 649.0, 22.0 ],
 					"text" : "OSC-route /wrist /thumb_tip /index_finger_tip /middle_finger_tip /ring_finger_tip /pinky_tip"
 				}
 
@@ -223,7 +186,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-73",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -236,11 +199,11 @@
 				"box" : 				{
 					"comment" : "(list) (float) middle xyz coordinates",
 					"id" : "obj-74",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 345.0, 315.0, 30.0, 30.0 ]
+					"patching_rect" : [ 345.0, 225.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -248,47 +211,19 @@
 				"box" : 				{
 					"comment" : "(list) (float) wrist xyz coordinates",
 					"id" : "obj-75",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 315.0, 30.0, 30.0 ]
+					"patching_rect" : [ 30.0, 225.0, 30.0, 30.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
 					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
-					"source" : [ "obj-2", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -336,7 +271,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -383,13 +318,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
