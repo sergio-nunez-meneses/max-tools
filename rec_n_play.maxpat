@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 295.0, 100.0, 946.0, 706.0 ],
+		"rect" : [ 79.0, 100.0, 946.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -210,7 +210,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(bool) play/stop recorded data",
 					"id" : "obj-10",
 					"index" : 3,
 					"maxclass" : "inlet",
@@ -259,20 +259,20 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(bool) start/stop recording data",
 					"id" : "obj-27",
 					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 255.0, 30.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(list) (mixed) landmark address and coordinates",
 					"id" : "obj-15",
 					"index" : 1,
 					"maxclass" : "inlet",
