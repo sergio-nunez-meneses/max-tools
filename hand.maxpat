@@ -98,7 +98,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 75.0, 179.0, 49.0 ],
+					"patching_rect" : [ 390.0, 75.0, 183.0, 49.0 ],
 					"text" : "wrist thumb_tip index_finger_tip middle_finger_tip ring_finger_tip pinky_tip"
 				}
 
@@ -261,7 +261,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(list) (mixed) data from [udpreceive]",
 					"id" : "obj-73",
 					"index" : 1,
 					"maxclass" : "inlet",
