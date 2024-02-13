@@ -217,7 +217,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 360.0, 105.0, 47.0, 22.0 ],
-					"text" : "play 1"
+					"text" : "play $1"
 				}
 
 			}
