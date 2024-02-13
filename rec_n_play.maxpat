@@ -82,7 +82,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 32.0, 465.0, 65.0, 22.0 ],
-					"text" : "right_hand"
+					"text" : "#1"
 				}
 
 			}
@@ -95,18 +95,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 32.0, 495.0, 151.0, 22.0 ],
 					"text" : "sprintf refer %s\\, trackid %s"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-107",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 78.0, 435.0, 65.0, 22.0 ],
-					"text" : "#1"
 				}
 
 			}
@@ -229,7 +217,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 360.0, 105.0, 47.0, 22.0 ],
-					"text" : "play $1"
+					"text" : "play 1"
 				}
 
 			}
@@ -749,13 +737,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-55", 1 ],
-					"source" : [ "obj-107", 0 ]
 				}
 
 			}
