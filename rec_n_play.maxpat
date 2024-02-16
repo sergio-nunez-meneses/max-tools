@@ -1588,7 +1588,7 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.2, 0.6, 0.5 ],
-					"destination" : [ "obj-13", 0 ],
+					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -1849,7 +1849,7 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.2, 0.6, 0.5 ],
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1864,7 +1864,7 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.2, 0.6, 0.29739238410596 ],
-					"destination" : [ "obj-22", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"order" : 1,
 					"source" : [ "obj-41", 1 ]
 				}
@@ -1873,7 +1873,7 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.2, 0.6, 0.29739238410596 ],
-					"destination" : [ "obj-59", 0 ],
+					"destination" : [ "obj-24", 0 ],
 					"order" : 0,
 					"source" : [ "obj-41", 1 ]
 				}
@@ -1952,7 +1952,7 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.2, 0.6, 0.5 ],
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1983,18 +1983,9 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.2, 0.6, 0.29739238410596 ],
-					"destination" : [ "obj-13", 0 ],
-					"order" : 1,
-					"source" : [ "obj-52", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.0, 0.2, 0.6, 0.29739238410596 ],
 					"destination" : [ "obj-16", 0 ],
 					"order" : 1,
-					"source" : [ "obj-52", 1 ]
+					"source" : [ "obj-52", 4 ]
 				}
 
 			}
@@ -2003,7 +1994,7 @@
 					"color" : [ 0.0, 0.2, 0.6, 0.29739238410596 ],
 					"destination" : [ "obj-17", 0 ],
 					"order" : 1,
-					"source" : [ "obj-52", 3 ]
+					"source" : [ "obj-52", 2 ]
 				}
 
 			}
@@ -2012,7 +2003,16 @@
 					"color" : [ 0.0, 0.2, 0.6, 0.29739238410596 ],
 					"destination" : [ "obj-18", 0 ],
 					"order" : 1,
-					"source" : [ "obj-52", 2 ]
+					"source" : [ "obj-52", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.2, 0.6, 0.29739238410596 ],
+					"destination" : [ "obj-22", 0 ],
+					"order" : 1,
+					"source" : [ "obj-52", 0 ]
 				}
 
 			}
@@ -2021,16 +2021,7 @@
 					"color" : [ 0.0, 0.2, 0.6, 0.29739238410596 ],
 					"destination" : [ "obj-23", 0 ],
 					"order" : 0,
-					"source" : [ "obj-52", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.0, 0.2, 0.6, 0.29739238410596 ],
-					"destination" : [ "obj-24", 0 ],
-					"order" : 0,
-					"source" : [ "obj-52", 0 ]
+					"source" : [ "obj-52", 2 ]
 				}
 
 			}
@@ -2039,7 +2030,7 @@
 					"color" : [ 0.0, 0.2, 0.6, 0.29739238410596 ],
 					"destination" : [ "obj-26", 0 ],
 					"order" : 1,
-					"source" : [ "obj-52", 4 ]
+					"source" : [ "obj-52", 1 ]
 				}
 
 			}
@@ -2048,7 +2039,7 @@
 					"color" : [ 0.0, 0.2, 0.6, 0.29739238410596 ],
 					"destination" : [ "obj-3", 0 ],
 					"order" : 0,
-					"source" : [ "obj-52", 4 ]
+					"source" : [ "obj-52", 1 ]
 				}
 
 			}
@@ -2057,7 +2048,7 @@
 					"color" : [ 0.0, 0.2, 0.6, 0.29739238410596 ],
 					"destination" : [ "obj-33", 0 ],
 					"order" : 0,
-					"source" : [ "obj-52", 1 ]
+					"source" : [ "obj-52", 4 ]
 				}
 
 			}
@@ -2066,7 +2057,7 @@
 					"color" : [ 0.0, 0.2, 0.6, 0.29739238410596 ],
 					"destination" : [ "obj-40", 0 ],
 					"order" : 0,
-					"source" : [ "obj-52", 2 ]
+					"source" : [ "obj-52", 3 ]
 				}
 
 			}
@@ -2074,6 +2065,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-52", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.2, 0.6, 0.29739238410596 ],
+					"destination" : [ "obj-59", 0 ],
+					"order" : 0,
+					"source" : [ "obj-52", 0 ]
 				}
 
 			}
@@ -2238,7 +2238,7 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.2, 0.6, 0.5 ],
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -2253,7 +2253,7 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.2, 0.6, 0.5 ],
-					"destination" : [ "obj-26", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -2261,7 +2261,7 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.2, 0.6, 0.5 ],
-					"destination" : [ "obj-22", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
