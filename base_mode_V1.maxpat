@@ -48,7 +48,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 840.0, 254.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 529.0, 34.0, 27.0, 27.0 ]
+					"presentation_rect" : [ 528.0, 34.0, 27.0, 27.0 ]
 				}
 
 			}
@@ -621,7 +621,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 814.0, 236.0, 87.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 555.0, 38.0, 87.0, 20.0 ],
+					"presentation_rect" : [ 554.0, 38.0, 87.0, 20.0 ],
 					"text" : "reset tab focus"
 				}
 
@@ -634,7 +634,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 674.5, 645.0, 60.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 35.0, 60.0, 20.0 ],
+					"presentation_rect" : [ 135.0, 35.0, 60.0, 20.0 ],
 					"text" : "right wrist",
 					"textcolor" : [ 0.8, 0.8, 0.8, 1.0 ]
 				}
@@ -648,7 +648,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 806.5, 645.0, 53.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.0, 35.0, 53.0, 20.0 ],
+					"presentation_rect" : [ 5.0, 35.0, 53.0, 20.0 ],
 					"text" : "left wrist",
 					"textcolor" : [ 0.8, 0.8, 0.8, 1.0 ]
 				}
@@ -662,7 +662,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 675.0, 614.0, 43.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 248.0, 43.0, 20.0 ],
+					"presentation_rect" : [ 30.0, 181.0, 43.0, 20.0 ],
 					"text" : "record",
 					"textcolor" : [ 0.8, 0.8, 0.8, 1.0 ]
 				}
@@ -676,7 +676,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 675.0, 539.0, 31.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 31.0, 183.0, 31.0, 20.0 ],
+					"presentation_rect" : [ 31.0, 250.0, 31.0, 20.0 ],
 					"text" : "play",
 					"textcolor" : [ 0.8, 0.8, 0.8, 1.0 ]
 				}
@@ -703,7 +703,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 963.0, 76.0, 61.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 577.0, 8.0, 61.0, 20.0 ],
+					"presentation_rect" : [ 576.0, 8.0, 61.0, 20.0 ],
 					"text" : "video rate",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1695,7 +1695,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 397.0, 225.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 245.0, 27.0, 27.0 ]
+					"presentation_rect" : [ 5.0, 178.0, 27.0, 27.0 ]
 				}
 
 			}
@@ -1709,7 +1709,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 196.0, 225.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 179.0, 27.0, 27.0 ]
+					"presentation_rect" : [ 5.0, 246.0, 27.0, 27.0 ]
 				}
 
 			}
@@ -1791,7 +1791,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 521.0, 107.0, 57.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 407.0, 40.0, 57.0, 20.0 ],
+					"presentation_rect" : [ 406.0, 40.0, 57.0, 20.0 ],
 					"text" : "play data"
 				}
 
@@ -1818,7 +1818,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 500.0, 105.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 383.0, 36.0, 27.0, 27.0 ]
+					"presentation_rect" : [ 382.0, 36.0, 27.0, 27.0 ]
 				}
 
 			}
@@ -2563,7 +2563,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 675.0, 570.0, 256.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 245.0, 256.0, 64.0 ],
+					"presentation_rect" : [ 5.0, 178.0, 256.0, 64.0 ],
 					"setmode" : 1,
 					"waveformcolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ]
 				}
@@ -2579,7 +2579,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 675.0, 495.0, 256.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 178.0, 256.0, 64.0 ],
+					"presentation_rect" : [ 5.0, 245.0, 256.0, 64.0 ],
 					"setmode" : 1
 				}
 
@@ -2643,7 +2643,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 917.0, 645.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 251.0, 35.0, 10.0, 140.0 ],
+					"presentation_rect" : [ 121.0, 35.0, 10.0, 140.0 ],
 					"varname" : "tresh[3]"
 				}
 
@@ -2659,7 +2659,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 895.0, 645.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 239.0, 35.0, 10.0, 140.0 ],
+					"presentation_rect" : [ 109.0, 35.0, 10.0, 140.0 ],
 					"varname" : "tresh[2]"
 				}
 
@@ -2674,7 +2674,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 810.0, 645.0, 83.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.0, 35.0, 102.0, 140.0 ],
+					"presentation_rect" : [ 5.0, 35.0, 102.0, 140.0 ],
 					"setstyle" : 3
 				}
 
@@ -2690,7 +2690,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 781.0, 645.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.0, 35.0, 10.0, 140.0 ],
+					"presentation_rect" : [ 251.0, 35.0, 10.0, 140.0 ],
 					"varname" : "tresh[1]"
 				}
 
@@ -2706,7 +2706,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 759.0, 645.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 109.0, 35.0, 10.0, 140.0 ],
+					"presentation_rect" : [ 239.0, 35.0, 10.0, 140.0 ],
 					"varname" : "tresh"
 				}
 
@@ -2721,7 +2721,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 674.0, 645.0, 83.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 35.0, 102.0, 140.0 ],
+					"presentation_rect" : [ 135.0, 35.0, 102.0, 140.0 ],
 					"setstyle" : 3
 				}
 
@@ -3162,7 +3162,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 915.0, 75.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 529.0, 7.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 528.0, 7.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -3174,7 +3174,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 786.0, 17.0, 113.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 407.0, 9.0, 113.0, 20.0 ],
+					"presentation_rect" : [ 406.0, 9.0, 113.0, 20.0 ],
 					"text" : "play video and data"
 				}
 
@@ -3271,7 +3271,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 673.0, 245.0, 85.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 281.0, 40.0, 85.0, 20.0 ],
+					"presentation_rect" : [ 280.0, 40.0, 85.0, 20.0 ],
 					"style" : "helpfile_label",
 					"text" : "drop mubu file"
 				}
@@ -3287,7 +3287,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 674.0, 240.0, 83.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 281.0, 35.0, 83.0, 29.0 ],
+					"presentation_rect" : [ 280.0, 35.0, 83.0, 29.0 ],
 					"rounded" : 1.0
 				}
 
@@ -3384,7 +3384,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 765.0, 15.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 383.0, 5.0, 27.0, 27.0 ]
+					"presentation_rect" : [ 382.0, 5.0, 27.0, 27.0 ]
 				}
 
 			}
@@ -3408,7 +3408,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 675.0, 21.0, 83.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 281.0, 9.0, 83.0, 20.0 ],
+					"presentation_rect" : [ 280.0, 9.0, 83.0, 20.0 ],
 					"style" : "helpfile_label",
 					"text" : "drop video file"
 				}
@@ -3424,7 +3424,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 675.0, 16.0, 83.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 281.0, 4.0, 83.0, 29.0 ],
+					"presentation_rect" : [ 280.0, 4.0, 83.0, 29.0 ],
 					"rounded" : 1.0
 				}
 
@@ -3438,7 +3438,7 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 675.0, 165.0, 80.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 281.0, 67.0, 384.0, 256.0 ],
+					"presentation_rect" : [ 280.0, 67.0, 384.0, 256.0 ],
 					"sync" : 1
 				}
 
@@ -3531,7 +3531,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 674.0, 315.0, 256.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 281.0, 327.0, 384.0, 256.0 ],
+					"presentation_rect" : [ 280.0, 327.0, 384.0, 256.0 ],
 					"rangeruler_grid" : 0,
 					"rangeruler_size" : 30,
 					"rangeruler_visible" : 1,
